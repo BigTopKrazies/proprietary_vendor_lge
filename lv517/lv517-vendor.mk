@@ -44,6 +44,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/lge/lv517/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/lv517/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/lge/lv517/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/lge/lv517/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/lv517/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lge/lv517/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/lge/lv517/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
@@ -89,6 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lv517/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lge/lv517/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lge/lv517/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/lge/lv517/proprietary/etc/thermal-engine-8937.conf:system/etc/thermal-engine-8937.conf \
+    vendor/lge/lv517/proprietary/etc/thermal-engine-default.conf:system/etc/thermal-engine-default.conf \
     vendor/lge/lv517/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/lv517/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lge/lv517/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
